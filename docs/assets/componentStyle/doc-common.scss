@@ -1,0 +1,23 @@
+.doc-article {
+  line-height: 1.8;
+  ul {
+    padding-left: 40px;
+  }
+}
+
+.doc-margin-l10 {
+  margin-bottom: 10px;
+
+  & > * {
+    margin-left: 10px;
+    vertical-align: middle;
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+}
+
+h2.anchor-title {
+  margin: 50px 0 20px 0;
+}

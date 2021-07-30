@@ -1,0 +1,73 @@
+// Common
+$--line-height-default: 1.5 !default;
+
+// Height
+$--height-mini: 24px !default;
+$--height-small: 28px !default;
+$--height-default: 32px !default;
+$--height-large: 36px !default;
+
+// Color
+$--color-default: #515a6e !default;
+$--color-primary: #2d8cf0 !default;
+$--color-danger: #ed4014 !default;
+$--color-warning: #f8ac59 !default;
+$--color-success: #19be6b !default;
+$--color-info: #999 !default;
+$--color-white: #ffffff !default;
+$--color-black: #000000 !default;
+
+// text-color
+$--color-text-default: #515a6e !default;
+$--color-text-placeholder: #c0c4cc !default;
+$--color-text-disabled: #dcdee2 !default;
+$--color-text-icon: #808695 !default;
+$--color-text-des: #808695 !default;
+$--color-text-title: #17233d !default;
+$--color-text-empty: #999999 !default;
+
+// border-color
+$--border-color-default: #e9e9eb !default;
+$--border-color-disabled: #e8e8e8 !default;
+$--border-color-primary: $--color-primary !default;
+$--border-color-danger: $--color-danger !default;
+$--border-color-warning: $--color-warning !default;
+$--border-color-success: $--color-success !default;
+$--border-color-info: $--color-info !default;
+
+// border
+$--border-width-default: 1px !default;
+$--border-style-default: solid !default;
+$--border-radius-default: 2px !default;
+$--border-radius-circle: 100% !default;
+$--border-default: $--border-width-default $--border-style-default
+  $--border-color-default !default;
+
+// font
+$--font-size-default: 14px !default;
+$--font-size-small: 12px !default;
+$--font-size-mini: 10px !default;
+$--font-size-large: 16px !default;
+$--font-size-title: 16px !default;
+// animation
+$--animation-time: 0.3s;
+
+// alter
+$--alter-padding-vertical: 8px !default;
+$--alter-padding-horizontal: 16px !default;
+$--alter-padding-with-icon-horizontal: 38px !default;
+$--alter-padding-with-icon-description-horizontal: 69px !default;
+// button
+$--button-padding-horizontal-default: 15px !default;
+$--button-padding-horizontal-small: 10px !default;
+$--button-padding-horizontal-mini: 10px !default;
+$--button-padding-horizontal-large: 18px !default;
+$--button-border-color-default: $--border-color-default !default;
+$--button-border-color-primary: $--border-color-primary !default;
+$--button-border-color-danger: $--border-color-danger !default;
+$--button-border-color-warning: $--border-color-warning !default;
+$--button-border-color-success: $--border-color-success !default;
+$--button-border-color-info: $--border-color-info !default;
+$--button-font-color-text: $--color-primary !default;
+$--button-hover-percent: 20% !default;
+$--button-active-percent: 10% !default;

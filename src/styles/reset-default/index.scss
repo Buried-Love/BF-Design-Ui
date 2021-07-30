@@ -1,0 +1,36 @@
+@import '../basic/globalVar.scss';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  :after,
+  :before {
+    box-sizing: border-box;
+  }
+}
+
+body {
+  font-weight: 400;
+  font-size: $--font-size-default;
+  color: $--color-text-default;
+  -webkit-font-smoothing: antialiased;
+  line-height: $--line-height-default;
+}
+a {
+  color: $--color-primary;
+  text-decoration: none;
+  &:hover,
+  &:focus {
+    color: mix($--color-white, $--color-primary, $--button-hover-percent);
+  }
+  &:active {
+    color: mix($--color-black, $--color-primary, $--button-active-percent);
+  }
+}
+p {
+  font-size: inherit;
+}
+
+textarea {
+  font-family: inherit;
+}
